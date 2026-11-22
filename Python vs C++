@@ -5,6 +5,16 @@ Differences
 1. Can have elements of different types at the same time.
 2. Has index -1 which is index 0 in reverse, like iterator rbegin().
 
+a = [1, 2, 3]
+b = [1, [2, 3]]
+c = []
+d = [1, 2, 3][1:]
+
+a: There are three items in this list. Nothing tricky yet.
+b: The list [2, 3] counts as a single item. It has one item before it. So we have 2 items in the list
+c: The empty list has 0 items
+d: The expression is the same as the list [2, 3], which has length 2.
+
 Even type int is an object.
 
 Tuple - ()
