@@ -19,3 +19,15 @@ Even type int is an object.
 
 Tuple - ()
 immutable, many functions can return tuple.
+
+
+String
+immutable
+
+Format https://pyformat.info/
+Official doc https://docs.python.org/3/library/string.html
+
+
+Dict
+
+https://docs.python.org/3/builtins/stdtypes.html#dict
