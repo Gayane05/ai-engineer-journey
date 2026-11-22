@@ -1,0 +1,11 @@
+Data structures which are in Python and their analogs in C++.
+
+list / std::vector
+Differences
+1. Can have elements of different types at the same time.
+2. Has index -1 which is index 0 in reverse, like iterator rbegin().
+
+Even type int is an object.
+
+Tuple - ()
+immutable, many functions can return tuple.
